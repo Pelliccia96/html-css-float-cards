@@ -11,3 +11,41 @@
     font-size: 3rem;
     color: #B62C5D;
 }
+
+.container {
+    width: 1200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.cards.clearfix {
+    margin-top: 2rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container .cards {
+    width: calc((100% / 3) - 1rem);
+    background-color: #0F0E17
+}
+
+.imgs {
+    width: 30%;
+    float: left;
+}
+
+.text-img {
+    float: left;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.text-img div {
+    padding-bottom: 1rem;
+}
