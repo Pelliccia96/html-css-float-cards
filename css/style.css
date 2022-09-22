@@ -19,8 +19,8 @@
 }
 
 .cards.clearfix {
-    margin-top: 2rem;
-    margin-right: 1rem;
+    margin-top: 3rem;
+    margin-right: 2.5rem;
     float: left;
 }
 
@@ -31,12 +31,17 @@
 }
 
 .container .cards {
-    width: calc((100% / 3) - 1rem);
+    width: calc((100% / 3) - 2.5rem);
     background-color: #0F0E17;
+    margin-bottom: 1.5rem;
+    box-shadow: 10px  10px 5px #dedede,
+    -10px -10px 5px #dedede,
+     10px -10px 5px #dedede,
+    -10px  10px 5px #dedede;
 }
 
 .imgs {
-    width: 30%;
+    width: 34%;
     float: left;
 }
 
@@ -54,4 +59,8 @@
 .text-img .email {
     text-decoration: underline;
     color: #428FAF;
+}
+
+strong {
+    font-size: 1.2rem;
 }
