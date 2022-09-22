@@ -14,13 +14,14 @@
 
 .container {
     width: 1200px;
-    border: 1px solid black;
     margin: auto;
     margin-top: 3rem;
 }
 
 .cards.clearfix {
     margin-top: 2rem;
+    margin-right: 1rem;
+    float: left;
 }
 
 .clearfix::after {
@@ -31,7 +32,7 @@
 
 .container .cards {
     width: calc((100% / 3) - 1rem);
-    background-color: #0F0E17
+    background-color: #0F0E17;
 }
 
 .imgs {
@@ -48,4 +49,9 @@
 
 .text-img div {
     padding-bottom: 1rem;
+}
+
+.text-img .email {
+    text-decoration: underline;
+    color: #428FAF;
 }
